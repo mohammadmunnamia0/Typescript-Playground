@@ -33,4 +33,10 @@ console.log(array);
 
 let roll : number[] = [1,2,3]
 
+//Tuple
+
+let CombineArray : [number,string,boolean] = [1,'munna',true]
+//we must have to maintain the order
+// as i have declare num,string,array so i can 0nly push this three type of value on this array
+
 
