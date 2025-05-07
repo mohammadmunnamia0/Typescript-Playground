@@ -48,10 +48,10 @@
 
                                         // Using Type Alias
 
-                                        
+
 {
 
-    type StudentDetails = {
+    type StudentDetails = { // Alias
         name: string;
         address: string;
         age:number;
@@ -75,5 +75,21 @@
         gender : 'female',
         
     }
+
+}
+
+                                        //type Alias in Function
+
+
+{
+                                         
+    const add1 = (num1:number,num2:number) => num1+num2;// normal function
+
+
+    // using alias
+    
+    type Add = (num1:number,num2:number) => number; // Alias
+
+    const add2:Add = (num1,num2) => num1+num2;
 
 }
