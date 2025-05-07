@@ -17,6 +17,9 @@ const {address} = user; //normal process to Destructuring data from user
 const { name:{firstName,middleName,lastName} } = user; //normal process to Destructuring  nested data from user 
 
 
+const { name:{ firstName : Name} } = user; //Name Alias , here  'firstName' is renamed as 'Name'
+
+
 
 
                                                         //Array Destructuring
