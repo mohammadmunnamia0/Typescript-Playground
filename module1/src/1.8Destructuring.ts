@@ -22,7 +22,7 @@ const { name:{ firstName : Name} } = user; //Name Alias , here  'firstName' is r
 
 
 
-                                                        //Array Destructuring
+                                                //Array Destructuring
 
 const myFriends : string []= ['suraiya','munna','tonmoy','x','y','z'];
 

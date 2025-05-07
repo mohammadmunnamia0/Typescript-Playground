@@ -1,9 +1,9 @@
-// Ternary-optional-chaining-&-nullish-coalescing
+// Ternary-optionalChaining-NullishCoalescing
 
 
 
 
-//Ternary
+                                                        //Ternary
 {
   const age: number = 15;
 
@@ -14,7 +14,7 @@
 
 
 
-// nullish coalescing
+                                                        // nullish coalescing
 
 {
   // nullish coalescing "??" -> use for null or undefine decision making, if there is a null or undefine value that time it will make a decision and set a value like guest we mention in below .
@@ -27,11 +27,15 @@
 
 
 
+                                                       //optional chaining
+
+
+{
+
 
 //optional chaining is same as nullish coalescing make decision while there is null or Undefine value.
 
 
-{
   type UserDetails = {
     name: string;
     age: number;
@@ -54,7 +58,8 @@
   const CheckAddress1 = User1.address.permanentAddress;
   console.log({CheckAddress1}); // answer is Undefine 
 
-  const CheckAddress2 = User1?.address?.permanentAddress ?? "No permanentAddress";
+  const CheckAddress2 = User1?.address?.permanentAddress ?? "No permanentAddress"; // //optional chaining is same as nullish coalescing make decision while there is null or Undefine value.
+
   console.log({CheckAddress2}); // answer is No permanentAddress 
 
 }
