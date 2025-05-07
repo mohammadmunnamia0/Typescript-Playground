@@ -70,3 +70,16 @@
 }
 
 
+
+                            //Never 
+{
+
+    // we will use never when we knew that this function is not going to return any value
+            const throwError = (msg:string) : never =>{
+                throw new Error(msg);
+            }
+
+            throwError("this function will never return ever , thats why it is a never type of function")
+}
+
+
