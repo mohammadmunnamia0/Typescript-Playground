@@ -39,8 +39,12 @@ const mentorlist = {
 
                                                                 //Rest Operator
 
-//rest operator -> create a array using all the parameter given , look i didnt declare any parameter in goodFriends , but i use all my friends name in the goodFriendsfunction and it just create a array using them , this is why we use rest "...friends" operator to creat a new array .
+//rest operator -> create a array using all the parameter given , look i didn't declare any parameter in goodFriends , but i use all my friends name in the goodFriends function and it just create a array using them , this is why we use rest "...friends" operator to create a new array .
 {
+    // const goodFriends =(friend1,friend2,friend3)=>{ 
+    
+    // //normally we should write this and then give the parameter value but here we did "...friends" so that whatever the value is given by the user it will come and create the array no issue. but before as we just assign friend1,2,3 that time we can ony give the 3 friends name as the parameter value but now we can add as many as we want without declare the parameter
+
     const goodFriends =(...friends : string[])=>{
         friends.forEach((friend:string)=>{
             console.log(`Hello ${friend}`)
