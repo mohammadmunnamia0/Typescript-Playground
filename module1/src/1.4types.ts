@@ -2,6 +2,7 @@
 //string
     //implicit datatype
 let FirstName = 'Munna' 
+
     //explicit datatype
 let LastName : string = 'Munna'
 let Roll : number = 123
@@ -25,13 +26,18 @@ m = 10;
 
 
 
+
 //Array
+
 let array : string[]  = ['m','s']
 array.push('munna');
 console.log(array);
 //as this is a string type of array so we can only push string
 
 let roll : number[] = [1,2,3]
+
+
+
 
 //Tuple
 
