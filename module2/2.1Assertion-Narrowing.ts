@@ -1,7 +1,7 @@
                                         // Type assertion / type narrowing
 
 {
-   const KgToGram = (Value : number | string ) : number | string |undefined =>{
+   const KgToGram = (Value : number | string ) : number | string | undefined =>{
         if(typeof Value === 'number')
         {
                 const convertedResult1 = Value*1000;

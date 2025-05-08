@@ -23,16 +23,19 @@
 
 
 
-
                                              //Generic In objects
 
-    
+        type UserVariables = {
+        name:string;
+        age:number;
+    }
 
-    const user : GenericArray<{name:string,age:number}>  = [  //"{name:string,age:number}" whenever we are declaring the object there with its type like string,then number , we have to maintain the order
+     // const user : GenericArray<{name:string,age:number}>  = [ 
+        const user : GenericArray<UserVariables>  = [   //"{name:string,age:number}" whenever we are declaring the object there with its type like string,then number , we have to maintain the order
         {
             name:'munna',
             age:24
-        }
+        },
         {
             name:'suraiya',
             age:'23' // read the comment thats why it is showing error age should be number
