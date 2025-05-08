@@ -1,3 +1,12 @@
+//Array,Function -> type
+//object -> type | interface
+
+
+
+
+
+
+
 {
     //type alias
     type User1 = {
@@ -41,4 +50,35 @@
         age:24,
         contactNum :'+8801'
     }
+}
+
+                                        //interface in array
+{
+    //type
+    type array1 = number[];
+
+    const IdList1 : array1 = [1,2,3];
+
+
+    //interface
+    interface array2 {
+        [index : number] : number
+    }
+    const IdList2 : array1 = [1,2,3];
+}
+
+                                        //interface in function
+
+{
+    //type
+    type Add1 = (num1: number, num2:number) => number;
+
+    const add1 : Add1 = (num1,num2) => num1+num2;
+
+
+    //interface
+    interface Add2 {
+        (num1: number, num2:number) : number;
+    }
+    const add2 : Add2 = (num1,num2) => num1+num2;
 }
