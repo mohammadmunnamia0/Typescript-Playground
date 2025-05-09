@@ -2,7 +2,7 @@
 {
     
     const addCourseToStudent = <T extends { id:number; name:string ; email:string;}>(student : T)=>{
-        // Must "id,name,email" Lagbei Lagbe
+        // extends mane Must "id,name,email" Lagbei Lagbe
         const Course = "NLWD";
         return {
             ...student,
