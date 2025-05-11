@@ -11,14 +11,14 @@ type y = a1 extends string ? true : b1 extends undefined ? true : false;
 
 //
 
-type VehicleAccessories ={
+type VehicleCollection ={
 car:string;
 bike:string;
 Apple:boolean;
 Wife:number;
 }
 
-type CheckVehicle<T> = T extends keyof VehicleAccessories ? true : false;
+type CheckVehicle<T> = T extends keyof VehicleCollection ? true : false;
 
 type HasBike = CheckVehicle<'bike'>; //answer is true
 type HasWife = CheckVehicle<4>;
