@@ -1,7 +1,6 @@
                           //  Asynchronous typescript
 
 {
-
     //promise
 
     const createPromise =()=>{
@@ -27,7 +26,7 @@
 
 { //same thing but different cause ai khane amara use korsi type , ki type promise amake return dibe 
     
-    //promise
+    //promise ->string/boolean/number use anything u want.
 
     const createPromise =() : Promise<string>=>{
         return new Promise<string>((resolve, reject) => {
