@@ -77,7 +77,7 @@ const obj2 : Objects2  = {
 //--------------------------------------
 
 
-type Objects3 = Record<string,unknown>;
+type Objects3 = Record<string,unknown>; //here string is the index number , cause in a object values will be store as a string, and we used return type unknown , now you can assign any value in side the object , it can be string,number,boolean.
 
 
 const obj3 : Objects3  = {
@@ -88,3 +88,4 @@ const obj3 : Objects3  = {
 
 }
                                                         
+}
