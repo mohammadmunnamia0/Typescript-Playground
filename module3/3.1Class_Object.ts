@@ -13,7 +13,7 @@
     }
 
     //method -> we use normal function to use the "this."
-    cardetails() {
+    carDetails() {
       console.log(`The Owner of this ${this.name} ${this.model} is ${this.owner}`);
     }
   }
@@ -23,8 +23,8 @@
   const car2 = new Car("Mercedes", "Benz S-Class", "Md Munna mia");
 
   //calling the method for each object
-  car1.cardetails();
-  car2.cardetails()
+  car1.carDetails();
+  car2.carDetails()
 
 /*
         Output : 
