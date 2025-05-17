@@ -1,0 +1,23 @@
+  class Student {
+    name: string;
+    age: number;
+    role: string;
+    group: string;
+
+    constructor(name: string, age: number, role: string) {
+      this.name = name;
+      this.age = age;
+      this.role = role;
+    }
+  }
+
+
+  --------------------------- upper and below Both are doing the same thing -------------------------
+
+
+  class Student {
+        
+    constructor(public name: string, public age: number, public role: string){
+
+    }
+  }

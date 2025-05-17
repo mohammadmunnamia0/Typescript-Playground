@@ -30,5 +30,8 @@
 
     //  const user1 = getUser({name : 'Munna'}); // pass the argument and called the function in one line
 
+
+    /* const user2 : AdminUser = { name: 'Munna', role:'Admin' }; 
+       getUser(user2); */
      const user2 = getUser({name : 'Munna', role:'Admin'}); // pass the argument and called the function in one line
 }
