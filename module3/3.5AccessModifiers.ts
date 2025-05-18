@@ -14,7 +14,7 @@
       constructor(
         public readonly id: number,
         public name: string,
-        private _balance1: number // can use or change the _balance1 out of the BankAccount class
+        private _balance1: number // private property only use inside the own class and  cant use or change the _balance1 out of the BankAccount class
       ) {};
 
       addDeposit(amount: number) {
