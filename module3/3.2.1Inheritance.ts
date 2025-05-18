@@ -14,6 +14,7 @@
             super(name, age, role);
             this.group = group;
         }
+        //method
     StudyHour(hour: any){
         console.log(`Hello, there im ${this.name}. Im a ${this.role}. Im ${this.age} years old. Im in ${this.group} Group. Everyday i have to study at least ${hour} Hour `);
     }    
@@ -27,6 +28,7 @@
             super(name, age, role);
             this.Department = Department;
         }
+        //method
     takeClass(NumOfClass: any){
         console.log(`Hello, there im ${this.name}. Im a ${this.role}. Im ${this.age} years old. Im in ${this.Department} Group. Everyday i have to take at least ${NumOfClass} Class `);
     }    

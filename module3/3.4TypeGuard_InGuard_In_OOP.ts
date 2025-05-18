@@ -60,6 +60,7 @@ const IsCow = (animal : Animal) : animal is Cow =>{ //boolean = animal is Cow
   return animal instanceof Cow;
 }
 
+  //function
   const getAnimal = (animal : Animal) =>{
     // animal. -> is showing name,species,makeSound() 
     // we cant access the makeMeow() or makeHumba

@@ -9,6 +9,7 @@
         role : "Admin"
     }
 
+    //function
     const getUser = (user:NormalUser|AdminUser) =>{
       /*  user. // only user.name will work here cause both type has name , not the role , role is only for the admin user. lets solve the problem using In Guard  */
 

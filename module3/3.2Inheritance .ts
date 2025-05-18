@@ -14,7 +14,7 @@
       this.role = role;
     }
 
-    //function-method
+    //method
     studyHour(hour: number) {
       console.log(
         `Im am ${this.name} a ${this.role} . I have to study more then ${hour} a day.`
@@ -36,7 +36,7 @@
       this.department = department;
     }
 
-    //function-method
+    //method
     takeClass(numOfClass: number) {
       console.log(
         `Im am ${this.name} your ${this.role} . I have to take more then ${numOfClass} Class a day.`
@@ -80,7 +80,7 @@ class  Student extends Person {
         this.group= group; // this is not in the parent class thats why we have to write it as usual
     }
 
-    //function-method
+    //method
     studyHour(hour: number) {
       console.log(
         `Im am ${this.name} a ${this.role} from ${this.group} . I have to study more then ${hour} hour a day.`
@@ -99,7 +99,7 @@ class  Student extends Person {
       this.department = department; // this is not in the parent class thats why we have to write it as usual
     }
 
-    //function-method
+    //method
     takeClass(numOfClass: number) {
       console.log(
         `Im am ${this.name} your ${this.role} from ${this.department} . I have to take more then ${numOfClass} Class a day.`

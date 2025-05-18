@@ -17,10 +17,12 @@
         private _balance1: number // private property only use inside the own class and  cant use or change the _balance1 out of the BankAccount class
       ) {};
 
+      //method
       addDeposit(amount: number) {
         this._balance1 = this._balance1 + amount;
       }
 
+      //method
       getBalance() {
         return this._balance1;
       }
